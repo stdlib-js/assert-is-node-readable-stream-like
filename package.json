@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-node-readable-stream-like",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test if a value is Node readable stream-like.",
   "license": "Apache-2.0",
   "author": {
