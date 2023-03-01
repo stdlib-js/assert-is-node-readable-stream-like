@@ -132,7 +132,7 @@ bool = isNodeReadableStreamLike( new Stream() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-node-stream-like`][@stdlib/assert/is-node-stream-like]</span><span class="delimiter">: </span><span class="description">test if a value is Node stream-like.</span>
+-   <span class="package-name">[`@stdlib/assert-is-node-stream-like`][@stdlib/assert/is-node-stream-like]</span><span class="delimiter">: </span><span class="description">test if a value is Node stream-like.</span>
 
 </section>
 
