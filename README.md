@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@deno/mod.js';
+import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@v0.1.0-deno/mod.js';
 ```
 
 #### isNodeReadableStreamLike( value )
@@ -75,7 +75,7 @@ var bool = isNodeReadableStreamLike( transformStream() );
 ```javascript
 var stream = require( 'stream' );
 import transformStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@deno/mod.js';
-import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@deno/mod.js';
+import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@v0.1.0-deno/mod.js';
 
 var bool = isNodeReadableStreamLike( new stream.Readable() );
 // returns true
