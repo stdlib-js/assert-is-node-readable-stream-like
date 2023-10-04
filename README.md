@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-node-readable-stream-like/tags). For example,
+
+```javascript
 import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@v0.1.1-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ var bool = isNodeReadableStreamLike( transformStream() );
 ```javascript
 var stream = require( 'stream' );
 import transformStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@deno/mod.js';
-import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@v0.1.1-deno/mod.js';
+import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@deno/mod.js';
 
 var bool = isNodeReadableStreamLike( new stream.Readable() );
 // returns true
