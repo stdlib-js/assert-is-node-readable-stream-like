@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-node-readable-stream-like/tags). For example,
+
+```javascript
 import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@v0.2.3-esm/index.mjs';
 ```
 
@@ -80,7 +85,7 @@ var bool = isNodeReadableStreamLike( transformStream() );
 
 var stream = require( 'stream' );
 import transformStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@esm/index.mjs';
-import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@v0.2.3-esm/index.mjs';
+import isNodeReadableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-readable-stream-like@esm/index.mjs';
 
 var bool = isNodeReadableStreamLike( new stream.Readable() );
 // returns true
